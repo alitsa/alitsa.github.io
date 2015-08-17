@@ -1,0 +1,3 @@
+[submodule "seller-ratings"]
+	path = seller-ratings
+	url = https://github.com/alitsa/seller-ratings.git
