@@ -1,0 +1,32 @@
+/* Litsa styles */
+html {font-family: 'Raleway', sans-serif; color: rgb(30,40,60); word-spacing: .25em;}
+header, h1, h2, h3 {font-weight: 400;}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+h3 {margin-top: 2em;}
+h3, p.lead {font-size: 1.33em;}
+p, li {line-height: 1.5em;}
+article {max-width: 50em; margin: 0 auto; padding: 2em;}
+.card {display: flex; align-items: center; min-height: 100vh;}
+.card>*:first-child{width: 100%;}
+header h1 {background: url(logo.svg) center right no-repeat; background-size: auto 66.7%;}
+a {color: rgb(20,40,120); font-weight: 600; text-decoration: none;}
+
+.list>li {margin: 0 0 1em 0;}
+.list>li>ul {}
+
+nav ul {margin: 0; padding: 1em 0; list-style-type: none; display: flex;}
+nav ul li {margin-right: 1em;}
+
+.tab-link {display: inline-block; background-color: rgba(20,40,120,.10); padding: .25em 1em; border-radius: 1em;}
+.tab-active .tab-link {background-color: rgba(20,40,120,1); color: #fff;}
+.tab {}
+.tab-active {}
+
+@media (min-width: 50em) {
+  .list {margin: 0; padding: 0;}
+  .list>li {display: flex; border-bottom: 1px solid rgba(30,40,60,.10); padding: 1em; align-items: center; margin-bottom: 0;}
+  .list>li:last-child {border-bottom: none;}
+  .list>li>div {width: 66.67%;}
+  .list>li>ul {list-style-type: none;}
+}
