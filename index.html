@@ -29,101 +29,39 @@
 </head>
 
 <body>
+    <nav class="nav nav-top">
+      <ul>
+        <li class="tab"><a href="#resume" class="tab-link">Resume</a></li>
+        <li class="tab"><a href="#samples" class="tab-link">Samples</a></li>
+        <li class="tab"><a href="#about" class="tab-link">About</a></li>
+      </ul>
+    </nav>
     <article>
-    <header class="card">
+    <header id="header" class="card card-header">
       <div>
         <h1>A. Litsa</h1>
 
         <p class="lead">
           Hello! I'm a <a href="#product-design"> product designer</a> in Austin, TX.
         </p>
-      </div>
-    </header>
-    <section id="content">
-    <div class="card description" id="description">
-      <div>
+
         <p>
           I love tackling the tough stuff, and I'm happiest working on large, complex systems, whole apps, design systems, and the like. I enjoy coding and building high-fidelity, deeply interactive prototypes.
         </p>
-        <p>
-          <a href="#process">Let's see it</a>
-        </p>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li class="tab tab-active"><a href="#process" class="tab-link">Process</a></li>
-        <li class="tab"><a href="#resume" class="tab-link">Resume</a></li>
-        <li class="tab"><a href="#samples" class="tab-link">Samples</a></li>
-      </ul>
-    </nav>
-    <div id="process" class="card tab tab-active">
-      <div>
-    <h3>Process</h3>
-    <ol class="list list-process">
-      <li>
-          <div>
-            Understand business goal
-          </div>
+
+        <nav class="nav nav-middle">
           <ul>
-            <li>Internal conversation</li>
+            <li class="tab"><a href="#resume" class="tab-link">Resume</a></li>
+            <li class="tab"><a href="#samples" class="tab-link">Samples</a></li>
+            <li class="tab"><a href="#about" class="tab-link">About</a></li>
           </ul>
-      </li>
-      <li>
-        <div>
-          Identify target customer
-        </div>
-        <ul>
-          <li>Internal conversation</li>
-          <li>Data analytics, e.g. TAM</li>
-        </ul>
-      </li>
-      <li>
-        <div>Develop empathy; identify painpoints</div>
-        <ul>
-          <li>Customer interviews</li>
-          <li>Experience mapping</li>
-        </ul>
-      </li>
-      <li>
-        <div>Brainstorm solutions</div>
-        <ul>
-          <li>Team workshop</li>
-        </ul>
-      </li>
-      <li>
-        <div>Narrow in on a solution that serves the business goal</div>
-        <ul>
-          <li>Internal conversation</li>
-        </ul>
-      </li>
-      <li>
-        <div>Test the value of that solution to customers</div>
-        <ul>
-          <li>Concept mockups</li>
-          <li>Customer feedback</li>
-        </ul>
-      </li>
-      <li>
-        <div>Test the usability of the solution's design</div>
-        <ul>
-          <li>High fidelity prototype</li>
-          <li>Usability tests</li>
-        </ul>
-      </li>
-      <li>
-        <div>Support the team as they work toward that solution incrementally</div>
-        <ul>
-          <li>UI QA</li>
-          <li>Custmer feedback</li>
-          <li>KPI measurement</li>
-        </ul>
-      </li>
-    </ol>
-    </div>
-    </div>
-    <div id="resume" class="card tab">
-<div>
+        </nav>
+
+      </div>
+    </header>
+    <section id="content">
+    <div id="resume" class="card card-resume">
+      <div>
       <h3>Resume</h3>
       <div class="job">
         <p>
@@ -242,19 +180,88 @@
           </ul>
         </p>
       </div>
-    </div>
-  </div>
-
-    <div id="samples" class="card tab">
-      <div>
-      <h3>Samples</h3>
-      <p>
-        DM me at <a target="_blank" href="https://www.instagram.com/a_litsa"><img src="img/instagram.svg" style="height: 1em;" alt="" /> a_litsa</a> to discuss my recent work.
+      <p class="next">
+        <a href="#header">Top</a>
+        <a href="#samples">Next</a>
       </p>
     </div>
     </div>
+
+    <div id="samples" class="card card-samples">
+      <div>
+      <h3>Samples</h3>
+      <p>
+        I'm working on a password protected portfolio. In the meanwhile, we can just meet virtually to look at samples together. My email is litsa@alitsa.net
+      </p>
+      <p class="next">
+        <a href="#header">Top</a>
+        <a href="#about">Next</a>
+      </p>
+    </div>
+    </div>
+    <div id="about" class="card card-about">
+      <div>
+        <h3>About Litsa</h3>
+        <div class="interest interest-coffee">
+          <h4>I own a coffee shop</h4>
+
+          <figure>
+            <img src="img/dear-diary-coffeehouse_small.jpg" alt="" />
+            <figcaption>
+            <p>
+            <a target="_blank" href="https://deardiarycoffeehouse.com">Dear Diary Coffee house</a> is my home life and my family.
+            </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="interest interest-cycling">
+          <h4>I love cycling</h4>
+
+          <figure>
+            <img src="img/mountain-biking_small.jpg" alt="" />
+            <figcaption>
+            <p>
+            My friend, Lisa and I are riding around Lake Georgetown in this photo. Most of my friends come from Austin's large, supportive, wonderful women's cycling scene.
+            </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="interest interest-cats">
+          <h4>These are my cats</h4>
+
+          <figure>
+            <img src="img/cats_small.jpg" alt="" />
+            <figcaption>
+            <p>
+            Walnut is a huntress; no pen cap or earbud is safe! Fortunately, Cottonwood&mdash;who loves to eat&mdash;does not share Walnut's profound interest in trash. Instead, he wants whatever you're eating.
+            </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="interest interest-zak">
+          <h4>And this is Zak</h4>
+
+          <figure>
+            <img src="img/zak_small.jpg" alt="" />
+            <figcaption>
+            <p>
+            Zak is my super supportive life partner and best friend. He's a product designer too.
+            </p>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="next">
+          <a href="#header">Top</a>
+        </p>
+
+      </div>
+    </div>
     </section>
   </article>
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
