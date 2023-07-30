@@ -1,0 +1,24 @@
+html {margin: 0; padding: 0; background: #2F3D36 url('foil.webp') repeat;}
+body {color: #2F3D36;}
+#main {padding-top: 40vw; background: rgba(250,252,253,.8) url('headshot.jpg') no-repeat scroll center top; background-size: 100%;}
+section {background-color: #fafdfc; max-width: 40rem; font-family: 'lato', sans-serif; margin: 1em; border: 1px solid #fafdfc; border-radius: 2pt; line-height: 150%;}
+article { padding: .5ex 2em;}
+header {padding: 2em 2em 0;}
+h1 {font-size: 3em;}
+h2 {text-align: center;}
+h3 {font-weight: 400; color: #FF6421;}
+h1,h2{font-family: 'Abril Fatface', serif;}
+hr {color: #76867E}
+ul {list-style-type: none; margin-left: 0; padding-left: 0;}
+li {margin-bottom: .5em; background: transparent url('highlight.png') no-repeat; padding-left: 1em;}
+::selection{background-color: rgba(0,255,259,.5)}
+.lead {font-size: 1.5em; line-height: 150%; font-weight: 300;}
+.item {margin-bottom: 4em;}
+a {text-transform: uppercase; font-size: .8em; color: black; font-weight: bold; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+@media (min-width: 40rem) {
+  body {background-position: center 20vh;}
+  section {margin: 1rem auto;}
+
+}
