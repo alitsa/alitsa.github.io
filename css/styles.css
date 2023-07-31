@@ -21,7 +21,7 @@ a:hover {text-decoration: underline;}
 
 @media (min-width: 30em) {
   body {background-position: center 20vh;}
-  section {margin: 1rem auto; max-width: 50em;}
+  section {margin: 1rem auto; max-width: 60em;}
   article { padding: .5ex 2em;}
 
 }
