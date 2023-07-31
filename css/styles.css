@@ -1,7 +1,7 @@
 html {margin: 0; padding: 0; background: #2F3D36 url('foil.webp') repeat;}
 body {color: #2F3D36;}
 #main {padding-top: 40vw; background: rgba(250,252,253,.8) url('headshot.jpg') no-repeat scroll center top; background-size: 100%;}
-section {background-color: #fafdfc; font-family: 'lato', sans-serif; font-weight: 300; margin: 1em; border: 1px solid #fafdfc; border-radius: 2pt;}
+section {background-color: #fafdfc; font-family: 'lato', sans-serif; font-size: 100%; font-weight: 300; margin: 1em; border: 1px solid #fafdfc; border-radius: 2pt;}
 p, li {line-height: 160%;}
 article { padding: 1em;}
 header.lead {padding: 2em 2em 0; text-align: justify;}
@@ -19,7 +19,7 @@ header.lead p {font-size: 1.5em; font-weight: 300;}
 a {text-transform: uppercase; font-size: .8em; color: #FF6421; font-weight: bold; text-decoration: none;}
 a:hover {text-decoration: underline;}
 
-@media (min-width: 480pt) {
+@media (min-width: 30em) {
   body {background-position: center 20vh;}
   section {margin: 1rem auto; max-width: 40rem;}
   article { padding: .5ex 2em;}
