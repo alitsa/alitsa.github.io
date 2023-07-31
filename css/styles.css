@@ -1,10 +1,9 @@
 html {margin: 0; padding: 0; background: #2F3D36 url('foil.webp') repeat;}
-body {color: #2F3D36;}
+body {color: #2F3D36; margin: 0; padding: 0; font-family: 'lato', sans-serif; font-weight: 300;}
 #main {padding-top: 40vw; background: rgba(250,252,253,.8) url('headshot.jpg') no-repeat scroll center top; background-size: 100%;}
-section {background-color: #fafdfc; font-family: 'lato', sans-serif; font-size: 100%; font-weight: 300; margin: 1em; border: 1px solid #fafdfc; border-radius: 2pt;}
-p, li {line-height: 160%;}
+section {background-color: #fafdfc; margin: 1em; border: 1px solid #fafdfc; border-radius: 2pt;}
 article { padding: 1em;}
-header.lead {padding: 2em 2em 0; text-align: justify;}
+header.lead {padding: 2em 2em 0;}
 article header {background-color: #EFF6F3; padding: 2em; margin:3em 0;}
 h1 {font-size: 4em;}
 h2 {text-align: center; font-size: 2.5em;}
@@ -12,16 +11,29 @@ h3 {font-weight: 400;}
 h1,h2{font-family: 'Abril Fatface', serif;}
 hr {color: #76867E}
 ul {list-style-type: none; margin-left: 0; padding-left: 0;}
-li {margin-bottom: .5em; background: transparent url('highlight.png') no-repeat; padding-left: 1em;}
+li {margin-bottom: .5em; background: transparent url('highlight.png') no-repeat 0 .5em; padding-left: 1em; background-size: auto .75em;}
 ::selection{background-color: rgba(0,255,259,.5)}
 header.lead p {font-size: 1.5em; font-weight: 300;}
+p {line-height: 160%;}
 .item {margin-bottom: 4em;}
 a {text-transform: uppercase; font-size: .8em; color: #FF6421; font-weight: bold; text-decoration: none;}
 a:hover {text-decoration: underline;}
 
 @media (min-width: 30em) {
   body {background-position: center 20vh;}
-  section {margin: 1rem auto; max-width: 60em;}
+  section {margin: 1em auto; max-width: 35em;}
   article { padding: .5ex 2em;}
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 30em),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 30em),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 30em),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 30em),
+only screen and (                min-resolution: 192dpi) and (min-width: 30em),
+only screen and (                min-resolution: 2dppx)  and (min-width: 30em) {
+
+ section {max-width: 60em;}
 
 }
